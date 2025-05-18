@@ -1,0 +1,153 @@
+model_name=Crossformer
+variable=jn
+sgc=6
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-6))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-6))"
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-5))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-5))"
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-4))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-4))"
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-3))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-3))"
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-2))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-2))"
+
+  python -u run.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path ./Data/ \
+  --data_path DYG_sgc_pro.csv \
+  --model_id ${variable}_sgc_pro_$((sgc-1))_exp_single_S \
+  --model $model_name \
+  --data DYG_u \
+  --features S \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 96 \
+  --e_layers 3 \
+  --d_layers 1 \
+  --factor 3 \
+  --enc_in 1 \
+  --dec_in 1 \
+  --c_out 1 \
+  --des 'Exp' \
+  --n_heads 16 \
+  --batch_size 32 \
+  --itr 1\
+  --devices '0,1' \
+  --target "${variable}_sgc$((sgc-1))"
