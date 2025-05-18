@@ -5,7 +5,7 @@ An open-source repository including the BPSN model and other baselines for soft 
 ## Model
 
 <p align="center">
-  <img src="./pic/overall_model.png" height="200" alt="Overall Model" />
+  <img src="./pic/overall_model.png" alt="Overall Model" style="width:100%; max-width:100vw; height:auto;" />
 </p>
 
 ## Usage
