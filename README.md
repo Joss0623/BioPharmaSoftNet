@@ -8,6 +8,8 @@ Applied Soft Computing · 2025
 
 [Paper](https://doi.org/10.1016/j.asoc.2025.113636)
 
+[Publisher / DOI](https://doi.org/10.1016/j.asoc.2025.113636) · [BibTeX](https://joss0623.github.io/citations/bpsn.bib)
+
 ## Overview
 
 Combine structured signal decomposition, forecasting, and global-attention reconstruction for soft sensing in biopharmaceutical processes.
