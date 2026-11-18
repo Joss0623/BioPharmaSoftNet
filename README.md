@@ -1,6 +1,22 @@
-# A Soft Sensor Net based on the Symplectic decomposition-Global attention reconstruction Architecture for Biopharmaceutical Industry
+# BPSN
 
-An open-source repository including the BPSN model and other baselines for soft sensing key indicators in fermentation processes.
+**A Soft Sensor Net Based on the Symplectic Decomposition–Global Attention Reconstruction Architecture for Biopharmaceutical Industry**
+
+Applied Soft Computing · 2025
+
+[Project page](https://joss0623.github.io/projects/bpsn/) · [Research homepage](https://joss0623.github.io/)
+
+[Paper](https://doi.org/10.1016/j.asoc.2025.113636)
+
+## Overview
+
+Combine structured signal decomposition, forecasting, and global-attention reconstruction for soft sensing in biopharmaceutical processes.
+
+## Research focus
+
+- Signal decomposition
+- Global attention
+- Soft sensing
 
 ## Model
 
